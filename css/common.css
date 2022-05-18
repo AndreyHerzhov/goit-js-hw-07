@@ -23,4 +23,11 @@ button {
   cursor: pointer;
 }
 
+.basicLightbox  {
+  background: linear-gradient(blue, yellow); 
+   z-index: 7000;
+   transition-timing-function:  ease;
+   transition-duration: 800ms;
+}
+
 

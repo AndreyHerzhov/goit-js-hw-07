@@ -37,7 +37,8 @@ function onImageClick(e) {
     <img src="${e.target.dataset.source}" alt="${e.target.alt}">
 	`, {
 		onShow: (instance) => window.addEventListener('keydown', onClickModalClose),
-		onClose: (instance) => window.removeEventListener('keydown', onClickModalClose)
+		onClose: (instance) => window.removeEventListener('keydown', onClickModalClose),
+        className: 'lightbox',
 	})
 
 	instance.show()
