@@ -32,8 +32,4 @@ refs.gallery.addEventListener('click', onImageClick)
 
 let lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt',    captionDelay: 250, });   
 function onImageClick(e) {
-    e.preventDefault()
-    if(e.target.nodeName !== 'IMG') {
-        return;
-    }
-}
+ }
